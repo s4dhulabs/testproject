@@ -1,9 +1,0 @@
-name: Vimana Framework Security Scan
-on: push
-
-jobs: 
-  vimana_framework:
-    runs-on: ubuntu-latest 
-    steps:
-     - name: Start Vimana Security Scan
-       uses: s4dhulabs/vimana-framework@main
